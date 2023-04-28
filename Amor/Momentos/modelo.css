@@ -1,0 +1,17 @@
+h1 {
+    color: crimson;
+    background-color: #ffaca6;
+    text-align: center;
+}
+p {
+    color: black;
+    text-align: center;
+    image-resolution: he;
+}
+.image {
+    height: 600px;
+    text-align: center;
+}
+.texto {
+    text-align: left;
+}

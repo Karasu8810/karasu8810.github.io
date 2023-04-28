@@ -1,0 +1,41 @@
+.titulo{
+    color: darkred;
+    font-size: 14;
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#subtitle{
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#citacao{
+    color: gray;
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#descricao{
+    color: gray;
+    font-size: 14;
+    font-family: Arial Black;
+    opacity: 50;
+}
+
+p{
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.red{
+    color: red;
+}
+
+a{
+    color: rgb(43, 124, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}

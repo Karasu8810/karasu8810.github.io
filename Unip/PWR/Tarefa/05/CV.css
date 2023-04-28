@@ -1,0 +1,17 @@
+.categoria {
+    font-style: oblique;
+    font-weight: bold;
+    text-align: left;
+}
+p {
+    border: 4px solid black;
+}
+.caixa {
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.perfil {
+    height: 200px;
+    text-align: right;
+}
