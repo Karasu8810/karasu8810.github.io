@@ -103,9 +103,13 @@ def Entrada() :
     print("Seja Bem-vindo %s \n" %u_login)
 
 #EXECUÇÃO DO PROGRAMA
-with open('cadastros.txt','r') as inicio :
-    usuarios = str(inicio.read())
-    usuarios = usuarios.split('/')
+try:
+    with open('cadastros.txt','r') as inicio :
+        usuarios = str(inicio.read())
+        usuarios = usuarios.split('/')
+except:
+    with open('cadastros.txt','w') as inicio :
+        None
 print("Seja Bem-Vindo\nVocê possui algum cadastro?\n    Digite 1 se - Não possuo cadastro\n    Digite 2 se - Possuo cadastro")
 cadastro = int(input("> "))
 if cadastro == 1 :
